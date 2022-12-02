@@ -29,5 +29,5 @@ run: build
 .PHONY: clean
 
 clean:
-	$(RM) $(PROC)/**/*.java
-	$(RM) $(OUT)/**/*.class
+	$(RM) $(PROC)/*.java
+	$(RM) $(OUT)/*.class
