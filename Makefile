@@ -17,6 +17,7 @@ CLASSES = Main.java
 
 $(PROC)/%.java: $(patsubst %,$(SRC)/%.java,%)
 	@mkdir -p $(@D)
+	@echo $^
 	$(CPP) -P $^ $@
 		
 default: build

@@ -1,7 +1,9 @@
-#define cube(x) ((x)*(x)*(x))
+#define main(code) public static void main(String[] args) { code }
+
+#define println(x) System.out.println(x);
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println(cube(4));
-    }
+    main(
+        println("Hello World")
+)
 }
